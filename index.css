@@ -159,5 +159,10 @@ html , body{
     font-size: 19px;
     font-weight: bold;
     letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
