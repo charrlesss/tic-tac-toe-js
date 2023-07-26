@@ -18,7 +18,7 @@ let turn = true
 let isWin = false
 
 button.addEventListener('click', ()=>{
-   window.location.reload()
+    window.location.href = 'https://charrlesss.github.io/tic-tac-toe-js/'
 })
 
 function chekingTheWin(className){
