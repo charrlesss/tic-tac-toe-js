@@ -18,7 +18,7 @@ let turn = true
 let isWin = false
 
 button.addEventListener('click', ()=>{
-    window.location.href ='/'
+   window.location.reload()
 })
 
 function chekingTheWin(className){
