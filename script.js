@@ -2,7 +2,7 @@ const containers = document.querySelectorAll('.container')
 const mainContainer = document.querySelector('.main-container')
 const winnerDisplay = document.querySelector('.winner')
 const messages = document.querySelector('.output')
-const button = document.querySelector('.button')
+
 const position = [
     [0,1,2],
     [3,4,5],
@@ -17,9 +17,6 @@ const position = [
 let turn = true
 let isWin = false
 
-button.addEventListener('click', ()=>{
-    window.location.href = 'https://charrlesss.github.io/tic-tac-toe-js/'
-})
 
 function chekingTheWin(className){
     return position.some( container =>{
